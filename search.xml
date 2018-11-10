@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>A + B problem by Java</title>
-      <link href="/2018/11/10/A+B_Problem/"/>
-      <url>/2018/11/10/A+B_Problem/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.BufferedInputStream;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> Scanner in =<span class="keyword">new</span> Scanner(<span class="keyword">new</span> BufferedInputStream(System.in));</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (in.hasNext())</span><br><span class="line">        &#123;</span><br><span class="line">            System.out.println(in.nextInt()+in.nextInt());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">1. 格式</span></span><br><span class="line"><span class="comment">1.1 不要带上package name！</span></span><br><span class="line"><span class="comment">1.2 class name 一定要是Main</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">2. 输入</span></span><br><span class="line"><span class="comment">2.1 scanner</span></span><br><span class="line"><span class="comment">输入肯定是new一个Scanner类，但是会有两种方式：</span></span><br><span class="line"><span class="comment">  Scanner sc = new Scanner (System.in);</span></span><br><span class="line"><span class="comment">  Scanner sc = new Scanner (new BufferedInputStream(System.in));//数据量大的情况下此种方式快</span></span><br><span class="line"><span class="comment">2.2 终止条件</span></span><br><span class="line"><span class="comment">万金油:while(sc .hasNext())</span></span><br><span class="line"><span class="comment">矫情一点：sc .hasNextInt()或sc .hasNextDouble()或sc .hasNextLine()</span></span><br><span class="line"><span class="comment">2.3 读值</span></span><br><span class="line"><span class="comment">int: int n = sc.nextInt();</span></span><br><span class="line"><span class="comment">double: double t = sc.nextDouble();</span></span><br><span class="line"><span class="comment">string space split(空格分割): String s = sc.next();</span></span><br><span class="line"><span class="comment">string enter split(换行分割): String s = sc.nextLine();</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">3. 输出</span></span><br><span class="line"><span class="comment">和C中的printf保持一致:</span></span><br><span class="line"><span class="comment"> System.out.printf("%s %d %fn",arg1,arg2,arg3);</span></span><br><span class="line"><span class="comment">自带换行</span></span><br><span class="line"><span class="comment"> System.out.println(arg1);</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[A + B problem by Java]]></title>
+    <url>%2F2018%2F11%2F10%2FA%2BB_Problem%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142import java.io.BufferedInputStream;import java.util.Scanner;public class Main&#123; private static Scanner in =new Scanner(new BufferedInputStream(System.in)); public static void main(String args[]) &#123; while (in.hasNext()) &#123; System.out.println(in.nextInt()+in.nextInt()); &#125; &#125;&#125;/*1. 格式1.1 不要带上package name！1.2 class name 一定要是Main2. 输入2.1 scanner输入肯定是new一个Scanner类，但是会有两种方式： Scanner sc = new Scanner (System.in); Scanner sc = new Scanner (new BufferedInputStream(System.in));//数据量大的情况下此种方式快2.2 终止条件万金油:while(sc .hasNext())矫情一点：sc .hasNextInt()或sc .hasNextDouble()或sc .hasNextLine()2.3 读值int: int n = sc.nextInt();double: double t = sc.nextDouble();string space split(空格分割): String s = sc.next();string enter split(换行分割): String s = sc.nextLine();3. 输出和C中的printf保持一致: System.out.printf("%s %d %fn",arg1,arg2,arg3);自带换行 System.out.println(arg1);*/]]></content>
       <categories>
-          
-          <category> Algorithm </category>
-          
+        <category>Algorithm</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Java </tag>
-            
-            <tag> ACM </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>Java</tag>
+        <tag>ACM</tag>
+      </tags>
+  </entry>
 </search>
