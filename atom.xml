@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://suyaoling.com/"/>
-  <updated>2018-11-10T04:22:31.069Z</updated>
+  <updated>2018-11-10T09:17:13.798Z</updated>
   <id>https://suyaoling.com/</id>
   
   <author>
@@ -17,23 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://suyaoling.com/2018/11/10/hello-world/"/>
-    <id>https://suyaoling.com/2018/11/10/hello-world/</id>
-    <published>2018-11-10T00:27:46.353Z</published>
-    <updated>2018-11-10T04:22:31.069Z</updated>
+    <title>A + B problem by Java</title>
+    <link href="https://suyaoling.com/2018/11/10/A+B_Problem/"/>
+    <id>https://suyaoling.com/2018/11/10/A+B_Problem/</id>
+    <published>2018-11-10T08:51:30.000Z</published>
+    <updated>2018-11-10T09:17:13.798Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.BufferedInputStream;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> Scanner in =<span class="keyword">new</span> Scanner(<span class="keyword">new</span> BufferedInputStream(System.in));</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (in.hasNext())</span><br><span class="line">        &#123;</span><br><span class="line">            System.out.println(in.nextInt()+in.nextInt());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">1. 格式</span></span><br><span class="line"><span class="comment">1.1 不要带上package name！</span></span><br><span class="line"><span class="comment">1.2 class name 一定要是Main</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">2. 输入</span></span><br><span class="line"><span class="comment">2.1 scanner</span></span><br><span class="line"><span class="comment">输入肯定是new一个Scanner类，但是会有两种方式：</span></span><br><span class="line"><span class="comment">  Scanner sc = new Scanner (System.in);</span></span><br><span class="line"><span class="comment">  Scanner sc = new Scanner (new BufferedInputStream(System.in));//数据量大的情况下此种方式快</span></span><br><span class="line"><span class="comment">2.2 终止条件</span></span><br><span class="line"><span class="comment">万金油:while(sc .hasNext())</span></span><br><span class="line"><span class="comment">矫情一点：sc .hasNextInt()或sc .hasNextDouble()或sc .hasNextLine()</span></span><br><span class="line"><span class="comment">2.3 读值</span></span><br><span class="line"><span class="comment">int: int n = sc.nextInt();</span></span><br><span class="line"><span class="comment">double: double t = sc.nextDouble();</span></span><br><span class="line"><span class="comment">string space split(空格分割): String s = sc.next();</span></span><br><span class="line"><span class="comment">string enter split(换行分割): String s = sc.nextLine();</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">3. 输出</span></span><br><span class="line"><span class="comment">和C中的printf保持一致:</span></span><br><span class="line"><span class="comment"> System.out.printf("%s %d %fn",arg1,arg2,arg3);</span></span><br><span class="line"><span class="comment">自带换行</span></span><br><span class="line"><span class="comment"> System.out.println(arg1);</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
       
     
     </summary>
     
+      <category term="Algorithm" scheme="https://suyaoling.com/categories/Algorithm/"/>
+    
+    
+      <category term="Java" scheme="https://suyaoling.com/tags/Java/"/>
+    
+      <category term="ACM" scheme="https://suyaoling.com/tags/ACM/"/>
     
   </entry>
   

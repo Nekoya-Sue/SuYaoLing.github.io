@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F11%2F10%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[A + B problem by Java]]></title>
+    <url>%2F2018%2F11%2F10%2FA%2BB_Problem%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142import java.io.BufferedInputStream;import java.util.Scanner;public class Main&#123; private static Scanner in =new Scanner(new BufferedInputStream(System.in)); public static void main(String args[]) &#123; while (in.hasNext()) &#123; System.out.println(in.nextInt()+in.nextInt()); &#125; &#125;&#125;/*1. 格式1.1 不要带上package name！1.2 class name 一定要是Main2. 输入2.1 scanner输入肯定是new一个Scanner类，但是会有两种方式： Scanner sc = new Scanner (System.in); Scanner sc = new Scanner (new BufferedInputStream(System.in));//数据量大的情况下此种方式快2.2 终止条件万金油:while(sc .hasNext())矫情一点：sc .hasNextInt()或sc .hasNextDouble()或sc .hasNextLine()2.3 读值int: int n = sc.nextInt();double: double t = sc.nextDouble();string space split(空格分割): String s = sc.next();string enter split(换行分割): String s = sc.nextLine();3. 输出和C中的printf保持一致: System.out.printf("%s %d %fn",arg1,arg2,arg3);自带换行 System.out.println(arg1);*/]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>ACM</tag>
+      </tags>
   </entry>
 </search>
