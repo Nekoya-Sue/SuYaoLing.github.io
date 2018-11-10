@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://suyaoling.com/"/>
+  <link href="https://suyaoling.com/"/>
   <updated>2018-11-10T04:22:31.069Z</updated>
-  <id>http://suyaoling.com/</id>
+  <id>https://suyaoling.com/</id>
   
   <author>
     <name>苏曜灵</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://suyaoling.com/2018/11/10/hello-world/"/>
-    <id>http://suyaoling.com/2018/11/10/hello-world/</id>
+    <link href="https://suyaoling.com/2018/11/10/hello-world/"/>
+    <id>https://suyaoling.com/2018/11/10/hello-world/</id>
     <published>2018-11-10T00:27:46.353Z</published>
     <updated>2018-11-10T04:22:31.069Z</updated>
     
